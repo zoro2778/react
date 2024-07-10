@@ -2,10 +2,10 @@
   position: sticky;
   top: 0;
   display: flex;
-  background-color: rgba(167, 242, 205, 0.204);
+  background-color: rgba(23, 202, 65, 0.204);
   color: black;
   margin-left: -10px;
-  margin-right: -800px;
+  margin-right: -49px;
   left: 6px;
 z-index: 12;
 }
@@ -55,7 +55,7 @@ ul{
   flex-direction: row;
   background-color: black;
   border: 50px;
-  border-color: rgb(55, 51, 51);
+  border-color: black;
   width: 1270px;
   height: 620px;
   color: white;
@@ -69,7 +69,6 @@ ul{
   background-color: white;
   border: 50px;
   border-color: white;
-  box-shadow: 10px 10px;
   width: 500px;
   height: 400px;
   right: 270px;
@@ -352,8 +351,6 @@ text-align: center;
 z-index: 2;
 }
 .button:hover{
-display: block;
-filter: drop-shadow(0 0 10px #fffdef);
 box-shadow: 0px 0px aqua;
 }
 #place{
@@ -405,60 +402,47 @@ margin-left: 20px;
 font-size: 20px;
 margin-left: 70px;
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:600px){
   .nav{
     position: sticky;
     top: 0;
     display: flex;
-    background-color: rgba(185, 78, 11, 0.204);
+    background-color: rgba(202, 98, 23, 0.204);
     color: black;
-    margin-left: -100px;
-    margin-right: -850px;
-    left: 6px;
+    margin-left: -10px;
+    margin-right: -687px;
   z-index: 12;
   }
-}
-@media screen and (max-width:450px){
   .two{
     position: relative;
     left: 500px;
     text-align: center;
     margin-top: 30px;
-    font-size: 20px;
-    margin-left: -400px;
+    font-size: 25px;
+    margin-left: -600px;
     }
-}
-@media screen and (max-width:450px){
-  .three{
-    position: relative;
-    left: 600px;
-    margin-left: -400px;
-    margin-right: 90px;
-    margin-top: 15px;
-    }
-}
-@media screen and (max-width:450px){
-  #pla{
-    position: relative;
-    left: 450px;
-    }
-}
-@media screen and (max-width:450px){
-.plac{
-  font-size: 25px;
-  position: relative;
-  text-align: center;
-  margin-left: -600px;
-  left: 760px;
-  }
-  #f1{
-    position: relative;
-    left: 500px;
-    margin-top: 50px;
-    }
-    .faq1{
-      margin-left: -600px;
+    .three{
       position: relative;
-      left: 600px;
-    }
+      margin-left: -500px;
+      left: 500px;
+      }
+      #pla{
+        position: relative;
+        left: 500px;
+        }
+        .plac{
+        position: relative;
+        left: 700px;
+        margin-left: -700px;
+        }
+        #f1{
+          position: relative;
+          left: 500px;
+          margin-top: 50px;
+          }
+          .faq1{
+            position: relative;
+            left: 500px;
+            margin-left: -500px;
+          }
 }
