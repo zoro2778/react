@@ -2,10 +2,10 @@
   position: sticky;
   top: 0;
   display: flex;
-  background-color: rgba(23, 202, 65, 0.204);
+  background-color: rgba(167, 242, 205, 0.204);
   color: black;
   margin-left: -10px;
-  margin-right: -49px;
+  margin-right: -800px;
   left: 6px;
 z-index: 12;
 }
@@ -389,7 +389,7 @@ margin: 10px;
 position: relative;
 left: 30px;
 }
-.f1{
+#f1{
 margin-top: 50px;
 }
 .faq1{
@@ -404,4 +404,61 @@ margin-left: 20px;
 .sha1{
 font-size: 20px;
 margin-left: 70px;
+}
+@media screen and (max-width:450px){
+  .nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgba(185, 78, 11, 0.204);
+    color: black;
+    margin-left: -100px;
+    margin-right: -850px;
+    left: 6px;
+  z-index: 12;
+  }
+}
+@media screen and (max-width:450px){
+  .two{
+    position: relative;
+    left: 500px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: -400px;
+    }
+}
+@media screen and (max-width:450px){
+  .three{
+    position: relative;
+    left: 600px;
+    margin-left: -400px;
+    margin-right: 90px;
+    margin-top: 15px;
+    }
+}
+@media screen and (max-width:450px){
+  #pla{
+    position: relative;
+    left: 450px;
+    }
+}
+@media screen and (max-width:450px){
+.plac{
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+  margin-left: -600px;
+  left: 760px;
+  }
+  #f1{
+    position: relative;
+    left: 500px;
+    margin-top: 50px;
+    }
+    .faq1{
+      margin-left: -600px;
+      position: relative;
+      left: 600px;
+    }
 }
